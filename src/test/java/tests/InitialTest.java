@@ -26,4 +26,6 @@ public class InitialTest extends Request {
         writeLog(response);
         Assertions.assertEquals(200, response.getStatusCode(), "Error: invalid status");
     }
+
+
 }
